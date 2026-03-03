@@ -17,8 +17,10 @@
 
    - 추가 필드: `_bonus` (int)
    - 생성자: 이름, 기본급, 보너스를 받음 (`base()`로 부모 생성자 호출)
-   - `CalculatePay()`: 기본급 + 보너스 반환 (`new` 키워드로 부모 메서드 숨기기)
-   - `PrintInfo()`: 기본 정보 + 보너스 정보 출력 (`new` 키워드로 부모 메서드 숨기기)
+   - `CalculatePay()`: 기본급 + 보너스 반환 (`new` 키워드로 부모 메서드 
+	- 숨기기)
+   - `PrintInfo()`: 기본 정보 + 보너스 정보 출력 (`new` 키워드로 부모 
+	- 메서드 숨기기)
 
 3. `Developer` 클래스 (`Employee` 상속)
 
@@ -34,7 +36,8 @@
    - `CalculatePay()`: 기본급 그대로 반환
    - `PrintInfo()`: 기본 정보 출력
 
-5. `Manager`, `Developer`, `Intern`을 각 1명씩 생성하고 `PrintInfo()`를 호출하여 정보 출력
+5. `Manager`, `Developer`, `Intern`을 각 1명씩 생성하고 `PrintInfo()`를 
+1. 호출하여 정보 출력
 
 ## 예상 실행 결과
 
